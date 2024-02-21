@@ -10,11 +10,14 @@
 
 header{
     text-align: center;
+    padding: 20px;
 }
 .parent{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top:  25px;
+    gap: 10px;
 }
 </style>
 <body>
@@ -27,7 +30,16 @@ header{
         <h2>{{$prod_price1}}</h2>
     </div>
     <div class="right-parent">
-        <img src="" alt="">
+        <img src="https://static.wikia.nocookie.net/shingekinokyojin/images/e/ef/Attack_on_Titan_Season_3_sixth_key_visual_%28clean%29.jpg/revision/latest?cb=20210711062001" alt="">
+    </div>
+
+    <div class="left-parent">
+        <h2>{{$prod_name2}}</h2>
+        <h2>{{$prod_genre2}}</h2>
+        <h2>{{$prod_price2}}</h2>
+    </div>
+    <div class="right-parent">
+        <img src="https://static.wikia.nocookie.net/shingekinokyojin/images/e/ef/Attack_on_Titan_Season_3_sixth_key_visual_%28clean%29.jpg/revision/latest?cb=20210711062001" alt="">
     </div>
   </div>
 </body>
